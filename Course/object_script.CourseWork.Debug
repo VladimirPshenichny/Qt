@@ -1,0 +1,16 @@
+debug/MainWindow.o
+debug/decrease.o
+debug/increase.o
+debug/inversion.o
+debug/line.o
+debug/main.o
+debug/main.o
+debug/monochrome.o
+debug/myBMP.o
+debug/moc_MainWindow.o
+debug/moc_decrease.o
+debug/moc_increase.o
+debug/moc_inversion.o
+debug/moc_line.o
+debug/moc_monochrome.o
+debug/moc_myBMP.o

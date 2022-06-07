@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1043</width>
+    <height>741</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1043</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionCreate"/>
+    <addaction name="actionSave"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>Functions</string>
+    </property>
+    <addaction name="actionCut_image"/>
+    <addaction name="actionDraw_invert_circle"/>
+    <addaction name="actionDraw_a_section"/>
+    <addaction name="actionImage_magnification"/>
+   </widget>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionAbout_file"/>
+    <addaction name="actionaAuthor"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menuhelp"/>
+   <addaction name="menuInfo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionCreate">
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionCut_image">
+   <property name="text">
+    <string>Cut image</string>
+   </property>
+  </action>
+  <action name="actionDraw_invert_circle">
+   <property name="text">
+    <string>Drawing invert circle</string>
+   </property>
+  </action>
+  <action name="actionRGB_f">
+   <property name="text">
+    <string>RGB filter</string>
+   </property>
+  </action>
+  <action name="actionImage_s">
+   <property name="text">
+    <string>Separate image</string>
+   </property>
+  </action>
+  <action name="actionAbout_file">
+   <property name="text">
+    <string>About file</string>
+   </property>
+  </action>
+  <action name="actionaAuthor">
+   <property name="text">
+    <string>Author</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionRandom_rectangle">
+   <property name="text">
+    <string>Random rectangle</string>
+   </property>
+  </action>
+  <action name="actionCut_pick">
+   <property name="text">
+    <string>Cut pick</string>
+   </property>
+  </action>
+  <action name="actionDrawing_a_section">
+   <property name="text">
+    <string>Draw section</string>
+   </property>
+  </action>
+  <action name="actionDraw_a_section">
+   <property name="text">
+    <string>Drawing a section</string>
+   </property>
+  </action>
+  <action name="actionImage_magnification">
+   <property name="text">
+    <string>Image magnification</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

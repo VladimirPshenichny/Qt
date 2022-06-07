@@ -1,0 +1,16 @@
+release/MainWindow.o
+release/decrease.o
+release/increase.o
+release/inversion.o
+release/line.o
+release/main.o
+release/main.o
+release/monochrome.o
+release/myBMP.o
+release/moc_MainWindow.o
+release/moc_decrease.o
+release/moc_increase.o
+release/moc_inversion.o
+release/moc_line.o
+release/moc_monochrome.o
+release/moc_myBMP.o
